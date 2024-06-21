@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Welcome to Cala, we offer fasion and quality clothing at the best price in a sustainable way">
+        <meta name="keywords" content="Cala,fashion,clothing,shopping">
+        <title>Fasion and quality clothing at the best price | Cala AU</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    </head>
+
+    <body>
+        <section id="header">
+            <a href="#"><img src="./img/logo/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i id="lg-bag" class="fa fa-bag-shopping"></i></a></li>
+       
+            </ul>
+         </div>
+         </section>
+       
+         <section id="prodetails" class="section-p1">
+            <div class="single-pro-img">
+             <img src="a.jpg" width="100%" id="Mainimg" alt="">
+             <div class="small-img-group">
+                 <div class="small-img-col">
+                  <img src="c.jpg" width="100%" class="small-img" alt="">
+                 </div>
+                 <div class="small-img-col">
+                 <img src="d.jpg" width="100%" class="small-img" alt="">
+                 </div>
+                 <div class="small-img-col">
+                 <img src="e.jpg" width="100%" class="small-img" alt="">
+                 </div>
+                 <div class="small-img-col">
+                 <img src="f.jpg" width="100%" class="small-img" alt="">
+                 </div>
+            </div>
+         </div> 
+     
+            <div class="single-pro-details">
+             <h6>Home / T-Shirt</h6>
+             <h4>Men's Fashion T Shirt</h4>
+             <h2>$199.00</h2>
+             <select>
+                 <option>Select Size</option>
+                 <option>S</option>
+                 <option>M</option>
+                 <option>L</option>
+                 <option>XL</option>
+                 <option>XXL</option>
+             </select>
+             <input type="number" value="1">
+             <button class="normal">Add To Cart</button>
+             <h4>Product Details</h4>
+             <span>Relaxed fit shirt in a patterned viscose weave.
+                  Features a resort collar, a French front and short 
+                  sleeves. Straight cut them.Relaxed fit shirt in a patterned
+                   viscose weave.Features a resort collar, a French front and short 
+                  sleeves. Straight cut hem.</span>
+            </div>
+     
+         </section>
+
+        
+        <section id="newsletter" class="section-p1 section-m1">
+            <div class="newstext">
+              <h4>Sign Up For Newsletters</h4>  
+              <p>Get E-mail updates about our latest shop and <span> special offers.</span></p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Your email address">
+                <button class="normal">Sign Up</button> 
+            </div>
+        </section>
+
+        <div class="questions">
+            Questions? Call 000-800-919-1694
+        </div>
+        <div class="footer">
+            <div class="footeritem">
+                <a href="faq">FAQ</a>
+                <a href="faq">Investor Relations</a>
+                <a href="faq">Investor Relations</a>
+                <a href="faq">Investor Relations</a>
+                <a href="faq">Investor Relations</a>
+                <a href="faq">Investor Relations</a>
+            </div>
+    
+            <div class="footeritem">
+                <a href="faq">FAQ</a>
+                <a href="faq">Investor Relations</a>
+                <a href="faq">Investor Relations</a>
+                <a href="faq">Investor Relations</a>
+                <a href="faq">Investor Relations</a>
+                <a href="faq">Investor Relations</a>
+            </div>
+            <div class="footeritem">
+                <a href="faq">FAQ</a>
+                <a href="faq">Investor Relations</a>
+                <a href="faq">Investor Relations</a>
+                <a href="faq">Investor Relations</a>
+                <a href="faq">Investor Relations</a>
+                <a href="faq">Investor Relations</a>
+            </div>
+            <div class="footeritem">
+                <a href="faq">FAQ</a>
+                <a href="faq">Investor Relations</a>
+                <a href="faq">Investor Relations</a>
+                <a href="faq">Investor Relations</a>
+                <a href="faq">Investor Relations</a>
+                <a href="faq">Investor Relations</a>
+            </div>
+        </div>
+    </footer>     
+    <script>
+        var MainImg = document.getElementById("Mainimg");
+        var smallimg = document.getElementsByClassName("small-img");
+        smallimg[0].onclick = function () {
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function () {
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function () {
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function () {
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
+    
+    </body>
+
+</html>
